@@ -12,6 +12,9 @@
 }
 
 .shared-font-color {
+    color: rgba(13, 19, 33 ,0.7);
+}
+.shared-heading-font-color{
     color: rgb(13, 19, 33);
 }
 
@@ -111,6 +114,14 @@ main {
     height: 47px;
     border: 1px solid rgba(13, 19, 33, 0.7);
     background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -2px;
+    
+}
+.text-decorate{
+    text-decoration: none;
 }
 
 
@@ -161,14 +172,14 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+
 }
 
 .inspiration>h1 {
     margin-top: 40px;
     font-size: 32px;
     font-weight: 800;
-    
+
 }
 
 .inspiration>p {
@@ -185,7 +196,7 @@ main {
     border-radius: 16px;
     width: 1140px;
     position: static;
-   
+
 
 }
 
@@ -193,8 +204,87 @@ main {
     width: 90%;
     height: 80%;
     align-items: center;
-    margin:auto auto;
+    margin: auto auto;
     border-radius: 16px;
     background-color: black;
     position: static;
+}
+/*target section styles*/
+
+.target-section {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.target-section>h1 {
+    font-size: 32px;
+    font-weight: 800;
+
+}
+
+.target-section>p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 40px 140px;
+    line-height: 26px;
+}
+
+.parent-target {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.child-target {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.child-target img,
+h3,
+p,
+a,button {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.child-target-2 {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.child-target-2 img,
+h3,
+p,
+a  button{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.shared-hd {
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+}
+
+.button-decoration {
+    display: flex;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    background: transparent;
+}
+
+.shared-pg {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
