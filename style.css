@@ -105,22 +105,23 @@ main {
     margin: 40px 120px;
 
 }
-.shared-button-size{
+
+.shared-button-size {
     width: 170px;
     height: 47px;
     border: 1px solid rgba(13, 19, 33, 0.7);
     background: transparent;
 }
 
+
 .parent-paragragh {
 
     border-radius: 16px;
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(-180.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
     margin: 50px 50px;
-   
-   
+
 }
 
 .code-and-change {
@@ -151,4 +152,49 @@ main {
 
 .image {
     margin: 50px;
+}
+
+/*inspiration section design*/
+.inspiration {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.inspiration>h1 {
+    margin-top: 40px;
+    font-size: 32px;
+    font-weight: 800;
+    
+}
+
+.inspiration>p {
+    margin: 40px 144px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.inspirational-video {
+    display: flex;
+    height: 514px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    width: 1140px;
+    position: static;
+   
+
+}
+
+.inspirational-video video {
+    width: 90%;
+    height: 80%;
+    align-items: center;
+    margin:auto auto;
+    border-radius: 16px;
+    background-color: black;
+    position: static;
 }
